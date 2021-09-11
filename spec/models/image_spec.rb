@@ -25,6 +25,7 @@ RSpec.describe Image, type: :model do
       @image.url = nil
       expect(@image.save).to eq false
     end
-  
+
+    
   end
 end

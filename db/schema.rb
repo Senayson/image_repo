@@ -13,6 +13,10 @@
 ActiveRecord::Schema.define(version: 2021_09_11_025542) do
 
   create_table "images", force: :cascade do |t|
+    t.string "title"
+    t.string "size"
+    t.string "category"
+    t.string "url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
